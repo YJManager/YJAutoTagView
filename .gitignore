@@ -23,7 +23,7 @@ xcuserdata/
 *.xcuserstate
 *.DS_Store
 *.gitignore
-contents.xcworkspacedata
+*.xcworkspacedata
 
 ## Obj-C/Swift specific
 *.hmap
