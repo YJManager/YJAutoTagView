@@ -21,6 +21,9 @@ xcuserdata/
 ## Other
 *.moved-aside
 *.xcuserstate
+*.DS_Store
+*.gitignore
+contents.xcworkspacedata
 
 ## Obj-C/Swift specific
 *.hmap
