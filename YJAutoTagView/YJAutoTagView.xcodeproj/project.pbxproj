@@ -66,10 +66,6 @@
 				631635AB1D9C0D9D0086298E /* AppDelegate.m */,
 				631635AD1D9C0D9D0086298E /* ViewController.h */,
 				631635AE1D9C0D9D0086298E /* ViewController.m */,
-				631635B01D9C0D9D0086298E /* Main.storyboard */,
-				631635B31D9C0D9D0086298E /* Assets.xcassets */,
-				631635B51D9C0D9D0086298E /* LaunchScreen.storyboard */,
-				631635B81D9C0D9D0086298E /* Info.plist */,
 				631635A71D9C0D9D0086298E /* Supporting Files */,
 			);
 			path = YJAutoTagView;
@@ -78,6 +74,10 @@
 		631635A71D9C0D9D0086298E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				631635B01D9C0D9D0086298E /* Main.storyboard */,
+				631635B31D9C0D9D0086298E /* Assets.xcassets */,
+				631635B51D9C0D9D0086298E /* LaunchScreen.storyboard */,
+				631635B81D9C0D9D0086298E /* Info.plist */,
 				631635A81D9C0D9D0086298E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -287,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 33JZ8ZWGJN;
 				INFOPLIST_FILE = YJAutoTagView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ismonkey.YJAutoTagView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 33JZ8ZWGJN;
 				INFOPLIST_FILE = YJAutoTagView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ismonkey.YJAutoTagView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -324,6 +326,7 @@
 				631635BD1D9C0D9D0086298E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
