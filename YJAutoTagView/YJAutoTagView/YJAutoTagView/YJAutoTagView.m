@@ -45,7 +45,7 @@ static CGFloat const imgViewH = 20;
 
 - (void)setScaleTagInSort:(CGFloat)scaleTagInSort{
     if (_scaleTagInSort < 1) {
-        @throw [NSException exceptionWithName:@"YZError" reason:@"(scaleTagInSort)缩放比例必须大于1" userInfo:nil];
+        @throw [NSException exceptionWithName:@"YJError" reason:@"(scaleTagInSort)缩放比例必须大于1" userInfo:nil];
     }
     _scaleTagInSort = scaleTagInSort;
 }
@@ -59,7 +59,7 @@ static CGFloat const imgViewH = 20;
 // 添加多个标签
 - (void)addTags:(NSArray *)tagStrs{
     if (self.frame.size.width == 0) {
-        @throw [NSException exceptionWithName:@"YZError" reason:@"先设置标签列表的frame" userInfo:nil];
+        @throw [NSException exceptionWithName:@"YJError" reason:@"先设置标签列表的frame" userInfo:nil];
     }
     
     for (NSString *tagStr in tagStrs) {
@@ -102,8 +102,6 @@ static CGFloat const imgViewH = 20;
             self.frame = frame;
         }];
     }
-    
-    NSLog(@"view的高度 == %f", self.tagListH);
 }
 
 // 点击标签
